@@ -1,0 +1,71 @@
+body{
+border-left: 0.5px solid #ccc;
+border-right: 0.5px solid #ccc;
+padding-left: 50px;
+padding-right: 50px;
+margin-left: 40px;
+margin-right: 40px;
+height: 100%;
+width: 85%;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    width: 88%;
+}
+
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    /* width: 33%; */
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    column-width: 32%;
+}
+.sec3{
+    padding-bottom: 20px;
+}
+
+.sec4{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 40%;
+}
+
+.sec5{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 40%;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+span{
+    color: #f00;
+}
+/* .sec6{
+    display: flex;
+    justify-content: 
+    width: ;
+} */
+
+.logo{
+    width: 139px;
+    height: 20vh;
+}
+
+textarea{
+    width: 100%;
+}
