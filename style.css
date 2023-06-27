@@ -16,17 +16,24 @@ width: 85%;
     width: 88%;
 }
 
-.sec1{
+.sec1 {
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
-    /* width: 33%; */
+}
+
+.sec1 input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
 }
 
 .sec2{
     display: flex;
     justify-content: space-between;
-    column-width: 32%;
+}
+.sec2 input {
+    flex-grow: 1;
+    margin-right: 10px;
 }
 .sec3{
     padding-bottom: 20px;
